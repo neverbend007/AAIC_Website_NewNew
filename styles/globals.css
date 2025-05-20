@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #0a2540 0%, #23395d 100%);
+  color: #e9eef6;
+  min-height: 100vh;
+}
+
+main {
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(10,37,64,0.18);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: #47b6ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #fff;
+}
+
+button {
+  background: linear-gradient(90deg, #47b6ff 0%, #0a2540 100%);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px 0 rgba(10,37,64,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+button:hover {
+  background: linear-gradient(90deg, #0a2540 0%, #47b6ff 100%);
+  box-shadow: 0 4px 16px 0 rgba(10,37,64,0.18);
+}
+
+input, textarea {
+  border: 1px solid #23395d;
+  border-radius: 6px;
+  padding: 0.7rem;
+  font-size: 1rem;
+  background: #19273e;
+  color: #e9eef6;
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+.card {
+  background: rgba(10,37,64,0.9);
+  border-radius: 14px;
+  box-shadow: 0 6px 24px 0 rgba(10,37,64,0.10);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 32px 0 rgba(71,182,255,0.14);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #23395d;
+}
+::-webkit-scrollbar-thumb {
+  background: #47b6ff;
+  border-radius: 4px;
+}
